@@ -8,13 +8,13 @@
     "service_worker": "background.js"
   },
   "host_permissions": ["https://www.deepl.com/*"],
-  "browser_action": {
+  "action": {
     "default_icon": {
-      "128": "icon-128.png"
+      "128": "icon128.png"
     },
     "default_title": "ae_DeepL"
   },
   "icons": {
-    "128": "icon-128.png"
+    "128": "icon128.png"
   }
 }

@@ -2,7 +2,7 @@
 chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
         id: "openInDeepl",
-        title: "Open in DeepL Translator",
+        title: "Open in DeepL",
         contexts: ["selection"]
     });
 });
